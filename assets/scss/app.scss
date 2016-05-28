@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  overflow-x:hidden;
+}
+
+header {
+  background-color: #56007E;
+  padding: 1px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #FF0101;
+}
+
+.weather-list {
+  margin: 20px auto;
+  width: 40%;
+}
+
+.weather-element {
+  box-shadow: 1px 1px 6px #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+.weather-element:hover{
+  box-shadow: 2px 2px 14px #ccc;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 3px;
+  font-size: 12px;
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.temperature {
+  cursor: default;
+}
+
+.info {
+  color: rgba(95, 95, 95, 0.51);
+  font-weight: bold;
+}
+
+
+.weather-search {
+  margin: 20px auto;
+  width: 40%;
+  text-align: center;
+
+  label {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  button, input {
+    font-size: inherit;
+    font-family: inherit;
+  }
+
+  input {
+    padding: 3px 5px;
+    outline: none;
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  button {
+    background-color: #5826C2;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius:6px;
+  }
+
+  button:hover {
+    background-color: #6019F7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .weather-list {
+    width: 80%;
+  }
+}
