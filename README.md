@@ -15,3 +15,5 @@ Clone the Repository followed by:
 3: ```npm start```
 
 **Note: This app was developed while following the Mindspace Tutorials on Youtube.**
+
+![Screenshot](https://cloud.githubusercontent.com/assets/18749480/15704984/b8e151f4-280a-11e6-8fcb-ab1f4ba13677.PNG "Screenshot")
